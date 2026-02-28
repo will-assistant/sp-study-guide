@@ -1,0 +1,117 @@
+# SP Study Guide — TTS Pronunciation Dictionary
+# Format: raw_term|spoken_replacement
+# Applied as case-sensitive find-and-replace before TTS
+# Longer/more specific terms must come first to avoid partial matches
+
+# Compound protocol names (must be before individual acronyms)
+SR-MPLS|S.R. M.P.L.S.
+SR-TE|S.R. T.E.
+TI-LFA|T.I. L.F.A.
+IS-IS|I.S.I.S.
+H-VPLS|H. V.P.L.S.
+MP-BGP|M.P. B.G.P.
+BGP-LS|B.G.P. L.S.
+BGP-CT|B.G.P. C.T.
+IOS-XE|I.O.S. X.E.
+IOS-XR|I.O.S. X.R.
+NX-OS|N.X. O.S.
+DP-16QAM|D.P. 16 Q.A.M.
+DP-64QAM|D.P. 64 Q.A.M.
+DP-QPSK|D.P. Q.P.S.K.
+SD-WAN|S.D. WAN
+
+# Prefixed variants (before base acronyms)
+VPNv4|V.P.N. v4
+VPNv6|V.P.N. v6
+SRv6|S.R. v6
+OSPFv3|O.S.P.F. v3
+OSPFv2|O.S.P.F. v2
+iBGP|i-B.G.P.
+eBGP|e-B.G.P.
+eCPRI|e-C.P.R.I.
+gNMI|g.N.M.I.
+gRPC|g.R.P.C.
+uSID|micro-SID
+oFEC|open F.E.C.
+
+# Base protocol acronyms
+OSPF|O.S.P.F.
+BGP|B.G.P.
+MPLS|M.P.L.S.
+EVPN|E.V.P.N.
+VPLS|V.P.L.S.
+VPWS|V.P.W.S.
+RSVP|R.S.V.P.
+PCEP|P.C.E.P.
+LSDB|L.S.D.B.
+SNPA|S.N.P.A.
+CSNP|C.S.N.P.
+PSNP|P.S.N.P.
+SRGB|S.R.G.B.
+BSID|binding S.I.D.
+CLNS|C.L.N.S.
+EDFA|E.D.F.A.
+ROADM|road-m
+DWDM|D.W.D.M.
+CPRI|C.P.R.I.
+GMPLS|G.M.P.L.S.
+FlexE|flex-E
+NETCONF|net-conf
+RESTCONF|rest-conf
+FlexAlgo|flex-algo
+Flex-Algo|flex-algo
+
+# Routing/switching terms
+BFD|B.F.D.
+LDP|L.D.P.
+VRF|V.R.F.
+TLV|T.L.V.
+PDU|P.D.U.
+LSP|L.S.P.
+SPF|S.P.F.
+DIS|D.I.S.
+IIH|I.I.H.
+NET|net
+AFI|A.F.I.
+QoS|quality of service
+MTU|M.T.U.
+RIB|R.I.B.
+FIB|F.I.B.
+FRR|F.R.R.
+FEC|F.E.C.
+OTN|O.T.N.
+TCM|T.C.M.
+ODU|O.D.U.
+SID|S.I.D.
+PCS|P.C.S.
+DSP|D.S.P.
+IRB|I.R.B.
+VNI|V.N.I.
+DCI|D.C.I.
+ESI|E.S.I.
+ABR|A.B.R.
+ASBR|A.S.B.R.
+RR|R.R.
+PE|P.E.
+CE|C.E.
+LSA|L.S.A.
+
+# Standards/orgs
+RFC|R.F.C.
+OIF|O.I.F.
+IEEE|I. triple E.
+IETF|I.E.T.F.
+YANG|yang
+NSSA|N.S.S.A.
+
+# Addressing
+IPv4|I.P. v4
+IPv6|I.P. v6
+
+# Misc technical
+CLI|C.L.I.
+API|A.P.I.
+SLA|S.L.A.
+ECMP|E.C.M.P.
+PTP|P.T.P.
+SyncE|sync-E

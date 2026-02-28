@@ -1,0 +1,9 @@
+# Audio output (too large for git)
+*.ogg
+*.wav
+*.opus
+
+# Temp files
+chunk_*.txt
+concat.txt
+*_pronounced.txt
